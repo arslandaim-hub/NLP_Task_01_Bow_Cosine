@@ -41,10 +41,10 @@ This repository contains the implementation of **Natural Language Processing Lab
     </tr>
     <tr>
       <td align="center">
-        <img src="task1.png" alt="BoW Matrix Output" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="Screenshots/Screenshot 2026-09-05 164408.png" alt="BoW Matrix Output" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
       </td>
       <td align="center">
-        <img src="task2.png" alt="Cosine Similarity Ranking" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="Screenshots/Screenshot 2026-09-05 164439.png" alt="Cosine Similarity Ranking" width="400" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
       </td>
     </tr>
     <tr>
@@ -77,7 +77,7 @@ This repository contains the implementation of **Natural Language Processing Lab
 > * **Example:** A short tweet processed against a 100,000-word vocabulary will have a vector with 10 to 20 ones and 99,980+ zeros. This wastes memory and computational power unless stored in a specialized format like a Compressed Sparse Row (CSR) matrix.
 
 ### 3. Zero Similarity:
-**Explain why Document 3 in Task 2 receives a Cosine Similarity score of 0.0000 when queried against "machine learning algorithms for data".**.
+**Explain why Document 7 in Task 2 receives a Cosine Similarity score of 0.0000 when queried against "machine learning algorithms for data".**.
 
 > **Answer:**  
 > Cosine similarity measures the cosine of the angle between two vectors using their dot product. 
