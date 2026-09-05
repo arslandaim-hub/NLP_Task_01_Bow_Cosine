@@ -19,7 +19,7 @@ This repository contains the implementation of **Natural Language Processing Lab
 ### Academic Details:
 | **Department** | **Subject** | **Student** | **Roll Number** |
 | :--- | :--- | :--- | :--- |
-| Artificial Intelligence | Natural Language Processing (CS-602/DS-604) | Arsalan Shar | 2k24/AI/15 |
+| Artificial Intelligence | Natural Language Processing | Arsalan Shar | 2k24/AI/15 |
 
 ---
 
