@@ -1,6 +1,6 @@
 <div align="center">
   <h1> NLP Vector Space Modeling & Cosine Similarity</h1>
-  <p><i>Implementing Bag of Words (BoW) and Search Relevance Ranking using Python</i></p>
+  <p><i>Implementing Bag of Words (BoW) and Search Relevance Ranking using Cosine Similarity</i></p>
 
   <p align="center">
     <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3.8+-blue.svg?logo=python&logoColor=white" alt="Python"></a>
@@ -16,14 +16,14 @@
 
 This repository contains the implementation of **Natural Language Processing Lab Task 01**. The primary objective is to represent textual data as numerical vectors and compute pairwise document similarity. It demonstrates the mechanics of tokenization, vocabulary extraction, term frequency representation, and geometric distance calculations.
 
-### Academic Details
+### Academic Details:
 | **Department** | **Subject** | **Student** | **Roll Number** |
 | :--- | :--- | :--- | :--- |
 | Artificial Intelligence | Natural Language Processing (CS-602/DS-604) | Arsalan Shar | 2k24/AI/15 |
 
 ---
 
-## Tech Stack & Concepts
+## Tech Stack & Concepts:
 
 * **Language:** Python 3.8+
 * **Libraries:** `scikit-learn` (Feature Extraction), `pandas` (Data Structuring), `numpy` (Numerical Operations)
@@ -31,7 +31,7 @@ This repository contains the implementation of **Natural Language Processing Lab
 
 ---
 
-## Screenshots
+## Screenshots:
 
 <div align="center">
   <table>
@@ -91,7 +91,7 @@ This repository contains the implementation of **Natural Language Processing Lab
 
 ---
 
-## Installation & Setup
+## Installation & Setup:
 
 1. **Clone the repository:**
    ```bash
