@@ -81,7 +81,7 @@ This repository contains the implementation of **Natural Language Processing Lab
 
 > **Answer:**  
 > Cosine similarity measures the cosine of the angle between two vectors using their dot product. 
-> * **Reason:** Document 3 (*"Natural language processing helps computers understand human language"*) shares **zero overlapping words** with the query (*"machine learning algorithms for data"*). 
+> * **Reason:** Document 7 (*"Kotlin coroutines provide a simplified way to manage asynchronous tasks."*) shares **zero overlapping words** with the query (*"machine learning and natural language processing for unstructured data."*). 
 > * **Math:** When taking the dot product ($\sum A_i B_i$), multiplying the term frequencies results in zero because there are no common indices where both vectors have a non-zero value. 
 > * **Example:** 
 >   * Query vector for "data": `1`, Doc 3 vector for "data": `0` $\rightarrow (1 \times 0 = 0)$
