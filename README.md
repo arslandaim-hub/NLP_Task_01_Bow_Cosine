@@ -91,9 +91,9 @@ This repository contains the implementation of **Natural Language Processing Lab
 
 ---
 
-## Installation & Setup:
+## Setup:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Arslandaim-hub/NLP_Task_01.git](https://github.com/Arslandaim-hub/NLP_Task_01.git)
+   git clone [https://github.com/Arslandaim-hub/NLP_Task_01_Bow_Cosine.git](https://github.com/Arslandaim-hub/NLP_Task_01.git)
    cd NLP_Task_01_Bow_Cosine
