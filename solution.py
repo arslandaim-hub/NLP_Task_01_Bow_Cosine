@@ -26,7 +26,7 @@ X = vectorizer.fit_transform(corpus)
 vocab = vectorizer.get_feature_names_out()
 df_bow = pd.DataFrame(X.toarray(), columns=vocab)
 
-print("--- Task 1: Bag of Words Matrix (First 5 Rows) ---")
+print("Task 1: Bag of Words Matrix [First 5 Rows]")
 # Displaying first 5 rows to avoid terminal clutter with the larger vocabulary
 print(df_bow.head(), "\n") 
 
@@ -45,18 +45,16 @@ documents = [
     "Data science involves extracting insights from noisy data using statistical modeling."
 ]
 
-# A more complex query to test varying similarity scores
-query = ["machine learning and natural language processing for unstructured data"]
+query = ["machine learning and natural language processing for unstructured data"] # A more complex query to test varying similarity scores
 
 vec_search = CountVectorizer(stop_words='english')
 doc_vectors = vec_search.fit_transform(documents)
 query_vector = vec_search.transform(query)
 
-# Compute cosine similarity
-scores = cosine_similarity(query_vector, doc_vectors)[0]
+scores = cosine_similarity(query_vector, doc_vectors)[0] # Compute cosine similarity
 ranked_indices = np.argsort(scores)[::-1]
 
-print("--- Task 2: Ranked Documents ---")
+print("Task 2: Ranked Documents:")
 for idx in ranked_indices:
     # Only print documents that have at least some relevance, or print all to see the 0.0 scores
     print(f"Score: {scores[idx]:.4f} | Document: {documents[idx]}")
